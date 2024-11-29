@@ -8,12 +8,13 @@ body {
 }
 
 /* Article Container */
-#the-future-of-ui-engineering {
+main, article {
     margin: 0 auto;
     padding: 20px 0;
     background: none;
 }
 
+.main-inner,
 .article-inner {
     max-width: 750px;
     margin: 0 auto;
