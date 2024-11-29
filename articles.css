@@ -1,0 +1,127 @@
+/* General Body Styling */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+/* Article Container */
+#the-future-of-ui-engineering {
+    margin: 40px auto;
+    padding: 20px 0;
+    background: none;
+}
+
+.article-inner {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #34495e;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.125em;
+    margin-bottom: 1.5em;
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    border-bottom: 1px solid #2980b9;
+}
+
+a:hover {
+    color: #1abc9c;
+    border-bottom-color: #1abc9c;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 5px solid #3498db;
+    padding: 1em;
+    margin: 1.5em 0;
+    font-style: italic;
+    font-size: 1.125em;
+    color: #555;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Horizontal Rules */
+hr {
+    border: 0;
+    height: 1px;
+    background: #bdc3c7;
+    margin: 2em 0;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin: 1.5em 0;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+    font-size: 1.125em;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5em 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .article-inner {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p, li {
+        font-size: 1em;
+    }
+}
