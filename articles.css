@@ -13,7 +13,7 @@
 body {
     font-family: sans-serif;
     line-height: 1.5;
-    color: #2c3e50;
+    color: #252525;
     margin: 0;
     padding: 0;
 }
@@ -32,17 +32,26 @@ main, article {
 }
 
 /* Headings */
-h1, h2, h3 {
+h1, h1.title, h1.title strong, h2, h3 {
     font-family: 'Georgia', serif;
-    color: #34495e;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+    color: #252525;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 h1 {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+h1.title,
+h1.title strong {
+    color: #a41c40;
+}
+
+h1.title {
+    font-weight: normal;
 }
 
 h2 {
@@ -63,27 +72,35 @@ p {
     margin-bottom: 1.5em;
 }
 
+h1.title,
+p.byline,
+p.article-link {
+    padding-bottom: 36px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
 /* Links */
 a {
-    color: #2980b9;
+    color: #a41c40;
     text-decoration: none;
-    border-bottom: 1px solid #2980b9;
 }
 
 a:hover {
-    color: #1abc9c;
-    border-bottom-color: #1abc9c;
+    color: #CC2753;
 }
 
 /* Blockquotes */
 blockquote {
-    border-left: 5px solid #3498db;
-    padding: 1em;
-    margin: 1.5em 0;
+    /* border: 1px solid #CC2753; */
+    border-left: 30px solid #a41c40;
+    padding: 2em;
+    margin: 2em 0;
     font-style: italic;
-    font-size: 1.125em;
+    font-size: 1.5em;
+    font-weight: 100;
     color: #555;
-    background: #f9f9f9;
+    background: #f3f3f3;
     border-radius: 4px;
 }
 
@@ -139,14 +156,38 @@ img {
 }
 
 /* General reset for the header */
-#project-header {
+#articles-header {
     background-color: #f9f9f9;
     padding: 10px 20px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #e0e0e0;
 }
 
-.header-inner {
+#articles-footer {
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #e0e0e0;
+    margin-top: 30px;
+}
+
+p.notice {
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+}
+
+p.notice .heart {
+    font-family: 'Georgia', serif;
+    color: #a41c40;
+    font-size: 1rem;
+    padding: 0 2px;
+}
+
+.header-inner,
+.footer-inner {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -192,5 +233,5 @@ img {
 }
 
 span.inline-divider {
-    padding: 0 5px;
+    padding: 0 10px;
 }

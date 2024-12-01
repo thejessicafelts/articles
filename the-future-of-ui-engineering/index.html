@@ -9,10 +9,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-    <header id="project-header">
+    <header id="articles-header">
         <div class="header-inner">
             <div class="header-title">
-                <h1><strong>Jessica Felts <span class="inline-divider">/</span></strong> Articles</h1>
+                <h1><strong>Jessica Felts</strong><span class="inline-divider">/</span>Articles</h1>
             </div>
             <div class="header-links">
                 <ul>
@@ -22,7 +22,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/thejessicafelts/" title="GitHub Profile">
+                        <a href="https://github.com/thejessicafelts/" target="_blank" title="GitHub Profile">
                             <i class="fa fa-github"></i>
                         </a>
                     </li>
@@ -32,14 +32,14 @@
     </header>
     <article id="the-future-of-ui-engineering">
         <div class="article-inner">
-            <h1>The Future of UI Engineering: Crafting Sustainable, User-Centered Digital Solutions</h1>
-            <h2>Article by Jessica Felts</h2>
-            <p>View this article on <a href="https://www.linkedin.com/pulse/future-ui-engineering-crafting-sustainable-digital-solutions-felts-l3ckc" target="_blank">LinkedIn</a></p>
+            <h1 class="title"><strong>The Future of UI Engineering:</strong> Crafting Sustainable, User-Centered Digital Solutions</h1>
+            <p class="byline">Article by <strong><a href="https://thejessicafelts.github.io/articles/" title="Articles Homepage">Jessica Felts</a></strong>.</p>
+            <p class="article-link">View this article on <strong><a href="https://www.linkedin.com/pulse/future-ui-engineering-crafting-sustainable-digital-solutions-felts-l3ckc" target="_blank">LinkedIn</a></strong>.</p>
             <p>In today's digital landscape, user experience is everything. Whether you're interacting with a website, an app, or a complex software platform, the user interface (UI) serves as the gateway to the overall experience. As UI Engineers, our role goes beyond making things "look good" — we are tasked with building interfaces that are functional, intuitive, and increasingly, sustainable. With the rise of web technologies and the growing demand for rich, interactive experiences, UI Engineering is at the forefront of digital transformation. As we look to the future, our responsibilities as UI Engineers are evolving. We must now consider factors such as scalability, accessibility, data privacy, and environmental impact, all while maintaining user-centric design principles. In this article, I'll explore the future of UI Engineering, focusing on the key trends and practices shaping our industry.</p>
             <blockquote>
                 A sustainable UI starts with optimized code. Reducing asset sizes and eliminating unnecessary libraries not only enhances performance but also minimizes the environmental impact of digital products.
             </blockquote>
-            <h1>Sustainability in UI Engineering</h1>
+            <h2>Sustainability in UI Engineering</h1>
             <p>Sustainability is no longer just a buzzword — it's a necessity. As digital products become more complex and resource-intensive, there is growing pressure to reduce their environmental impact. Every web page load, image, and animation consumes energy, and as UI Engineers, we have a role to play in minimizing the carbon footprint of our designs.</p>
             <h3>Efficient Code and Optimization</h3>
             <p>A sustainable UI starts with optimized code. Bloated code not only slows down user experiences but also increases the energy required to run those experiences. Reducing the size of assets, eliminating unnecessary JavaScript libraries, and minifying CSS and HTML are just a few practices that can contribute to faster load times and lower energy consumption. By focusing on efficiency from the outset, we can craft interfaces that perform well while consuming fewer resources.</p>
@@ -50,7 +50,7 @@
             <blockquote>
                 Creating sustainable, user-centered solutions means ensuring that all users, including those with disabilities, can interact with our products seamlessly.
             </blockquote>
-            <h1>The Shift Toward User-Centered Design</h1>
+            <h2>The Shift Toward User-Centered Design</h1>
             <p>At the core of great UI Engineering is the user experience. Crafting user-centered solutions means understanding not just the "what" of design but also the "why." Why do users engage with certain interfaces more than others? Why do they abandon certain processes? The answers to these questions often lie in human-centered design, a practice that UI Engineers are increasingly becoming involved in.</p>
             <h3>Data-Driven Design</h3>
             <p>Data has become a driving force behind user-centered UI Development. With access to vast amounts of user data and interaction metrics, UI Engineers now have the ability to create more personalized and responsive experiences. Tools like Google Analytics, heatmaps, and A/B testing allow us to continuously refine user interfaces based on actual behavior, ensuring that we are meeting the real needs of our users.</p>
@@ -61,7 +61,7 @@
             <blockquote>
                 Component-based frameworks have revolutionized UI Engineering, enabling us to build scalable, reusable modules that maintain performance and consistency across growing applications.
             </blockquote>
-            <h1>Scalable Front-End Architectures</h1>
+            <h2>Scalable Front-End Architectures</h1>
             <p>As digital solutions grow in size and complexity, scalability has become one of the key challenges in UI Engineering. Today's interfaces need to be adaptable to a wide range of devices, from smartphones to desktops, and must be able to handle increasing user traffic without compromising performance.</p>
             <h3>Component-Based Architecture</h3>
             <p>Component-based frameworks such as React, Vue, and Angular have revolutionized the way we build user interfaces. These frameworks allow UI Engineers to create reusable, modular components that can scale as applications grow. Not only does this improve the efficiency of development, but it also ensures that the user experience remains consistent across different parts of an application.</p>
@@ -72,7 +72,7 @@
             <blockquote>
                 In modern UI Engineering, transparency and user control over data are critical. Designing clear privacy settings and minimizing data collection are key to building user trust.
             </blockquote>
-            <h1>The Growing Importance of Data Privacy</h1>
+            <h2>The Growing Importance of Data Privacy</h1>
             <p>In the age of data breaches and increasing concerns over digital privacy, UI Engineers are at the forefront of ensuring that user data is handled responsibly. Users are more aware than ever of the privacy risks associated with online interactions, and they expect digital products to protect their personal information.</p>
             <h3>Transparent Data Practices</h3>
             <p>One of the most important aspects of modern UI Engineering is building interfaces that communicate privacy practices clearly to users. This involves designing transparent consent forms, easy-to-understand privacy settings, and intuitive ways for users to manage their data. UI Engineers play a critical role in ensuring that these elements are not only compliant with regulations like GDPR and CCPA but also user-friendly.</p>
@@ -80,11 +80,17 @@
             <p>The less data you collect, the less you have to secure. As UI Engineers, we can advocate for minimizing data collection within the user interface itself. By designing forms and features that ask only for essential information, we reduce the risk of exposure and build trust with users who are increasingly protective of their data.</p>
             <h3>Secure by Design</h3>
             <p>UI Engineers need to work closely with security teams to ensure that front-end security is built into the design from the ground up. This includes protecting against common vulnerabilities like cross-site scripting (XSS) and ensuring that authentication processes are secure and seamless. By prioritizing security at the UI level, we create a safer environment for users to interact with our products.</p>
+            <hr>
             <h2>Embracing the Future of UI Engineering</h2>
             <p>The future of UI Engineering is bright but challenging. As our roles evolve, we must continuously adapt to new technologies and user expectations. Whether we're optimizing for sustainability, accessibility, scalability, or data privacy, the common thread is a commitment to creating user-centered digital solutions.</p>
             <p>By embracing these trends and practices, we can craft interfaces that not only meet the needs of today's users but also stand the test of time. As UI Engineers, we have the power to shape the digital world in ways that are sustainable, inclusive, and secure. The key is to stay curious, continue learning, and always prioritize the user.</p>
             <p>What are your thoughts on the future of UI Engineering? How do you see sustainability, accessibility, or data privacy shaping your work? I'd love to hear your insights — let's start a conversation!</p>
         </div>
     </article>
+    <footer id="articles-footer">
+        <div class="footer-inner">
+            <p class="notice">Written with <span class="heart">&hearts;</span> by <a href="thejessicafelts.github.io" target="_blank">thejessicafelts</a>.</p>
+        </div>
+    </footer>
 </body>
 </html>
