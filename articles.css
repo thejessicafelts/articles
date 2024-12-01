@@ -23,6 +23,7 @@ main, article {
     margin: 0 auto;
     padding: 20px 0;
     background: none;
+    min-height: calc(100vh - 165px);
 }
 
 .main-inner,
